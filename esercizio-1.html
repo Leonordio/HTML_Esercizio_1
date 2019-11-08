@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Commento-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Memento Mori and a Simple Table!</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Ricordati che devi morire! (u_u)</h1>
+    <p>Non è awesome?</p>
+    <ol type="I">
+        <li> banane</li>
+        <li>cagnolini</li>
+        <li>mandorle amare></li>
+
+    </ol>
+
+
+    <h2>Una Tabella... What else?!</h2>
+    <table>
+        <caption>Monthly savings</caption>
+        <thead>
+            <tr>
+                <th>Banane</th>
+                <th>2018</th>
+                <th>$30</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Cagnolini
+                <td>2019</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Mandorle
+                <td>2019</td>
+                <td>$50</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th colspan="2">Total</th>
+                <td>$180</td>
+            </tr>
+
+        </tfoot>
+
+    </table>
+
+
+    <form action="backend.php" method="POST">
+        <fieldset>
+            <legend>
+                <h3>Concedici la tua anima</h3>
+            </legend>
+            <label>Username
+                <input type="text" name="username" placeholder="peppolpo" required>
+            </label>
+            <label>Email
+                <input type="email" name="email" placeholder="banane@hotmail.com" required>
+            </label>
+            <label>Password
+                <input type="password" name="password" placeholder="" required>
+            </label>
+            <label>Conferma di acconsentire
+                <input type="checkbox">
+            </label>
+
+            <p><button type="submit">Concedimiti</button></p>
+
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
+
